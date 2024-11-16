@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Zetta:wght@300&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@1,535&family=Passion+One:wght@400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.header {
+  background-color: rgb(72, 15, 19);
+}
+.logo-img {
+  width: 200px;
+}
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  background-color: rgb(240, 59, 71);
+  margin: 0; /* Убираем стандартные отступы */
+  padding: 0;
+}
+p {
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(240, 59, 71);
+  text-align: center;
+
+}
+.div-wrapper {
+    background-color: rgb(72, 15, 19) ;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 80px 80px 0px 80px
+}
+@media (max-width: 1280px) {
+  p {
+    font-size: 50px;
+  }
+  .header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
